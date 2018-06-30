@@ -11,8 +11,10 @@ class Driver {
 }
 
 class Route {
-  constructor(blocksTravelled, horizontal, vertical){
-    this.blocksTravelled = blocksTravelled
-    
+
+  blocksTravelled(vertical, horizontal){
+    return horizontal - vertical;
   }
+
+
 }
