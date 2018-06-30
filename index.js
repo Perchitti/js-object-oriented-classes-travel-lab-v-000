@@ -21,6 +21,9 @@ class Route {
     let horizontal = this.eastWest.indexOf(this.endingLocation.horizontal) - this.eastWest.indexOf(this.beginningLocation.horizontal)
     return vertical + horizontal
   }
-
+  estimatedTime(peak){
+    
+  }
+    
 
 }
