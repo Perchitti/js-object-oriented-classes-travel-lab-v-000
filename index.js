@@ -6,5 +6,5 @@ class Driver {
   this.yearsExperienceFromBeginningOf = yearsExperienceFromBeginningOf
   }
 
-  
+
 }
