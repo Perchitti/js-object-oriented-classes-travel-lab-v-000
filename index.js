@@ -8,5 +8,10 @@ class Driver {
     return endYear - this.startDate.getFullYear();
   }
 
+}
 
+class Route{
+  constructor(blocksTravelled, horizontal, vertical){
+
+  }
 }
